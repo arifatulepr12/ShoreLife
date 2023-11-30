@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const fishSchema = new Schema({
+const FunFactSchema = new Schema({
   name: {
     type: String,
     required: true,
@@ -20,4 +20,4 @@ const fishSchema = new Schema({
   },
 });
 
-module.exports = mongoose.model('Fish', fishSchema);
+module.exports = mongoose.model('FunFact', FunFactSchema);

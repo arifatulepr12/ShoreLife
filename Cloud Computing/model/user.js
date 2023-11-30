@@ -1,23 +1,28 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const fishSchema = new Schema({
+const userSchema = new Schema({
   name: {
     type: String,
     required: true,
-    min: 5,
+    min: 3,
     max: 255,
   },
-  description: {
+  email: {
     type: String,
     required: true,
     min: 5,
     max: 255,
   },
-  photo: {
+  password: {
     type: String,
     required: true,
+    min: 3,
+    max: 255,
+  },
+  date: {
+    type: Date,
+    default: Date.now,
   },
 });
-
-module.exports = mongoose.model('Fish', fishSchema);
+module.exports = mongoose.model('User', userSchema);
