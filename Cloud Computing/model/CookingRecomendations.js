@@ -14,10 +14,6 @@ const recomendationSchema = new Schema({
     min: 5,
     max: 255,
   },
-  photo: {
-    type: String,
-    required: true,
-  },
 });
 
 module.exports = mongoose.model('Recaomendation', recomendationSchema);
