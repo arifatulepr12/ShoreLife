@@ -8,15 +8,11 @@ const FunFactSchema = new Schema({
     min: 5,
     max: 255,
   },
-  description: {
+  funfact: {
     type: String,
     required: true,
     min: 5,
     max: 255,
-  },
-  photo: {
-    type: String,
-    required: true,
   },
 });
 
