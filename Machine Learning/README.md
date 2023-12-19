@@ -1,7 +1,7 @@
 # ShoreLife - Machine Learning Repository
 
 ## Introduction
-Machine learning repository contain's one model which is available in the readme.md link in the model folder. The models contain 10 classes of food.
+In the machine learning repository, it consists of a model containing 10 fish classes. In addition, there are files used for the deployment process using Cloud Run.
 
 ## Machine Learning Team
 - Angger Zufan Hanggara (M312BSY1734)
