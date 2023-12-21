@@ -1,1 +1,0 @@
-file buat media cc
